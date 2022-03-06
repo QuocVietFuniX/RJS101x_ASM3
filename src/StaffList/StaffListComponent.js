@@ -77,6 +77,18 @@ class StaffList extends Component {
             >
             2 cột
             </button>
+            <button
+            onClick={() => this.onColumnSelect("col-md-4 mt-1")}
+            className="btn btn-success mr-3"
+            >
+            3 cột
+            </button>
+            <button
+            onClick={() => this.onColumnSelect("col-md-2 mt-1")}
+            className="btn btn-success mr-3"
+            >
+            6 cột
+            </button>
             </div>
             <div className="row">{staffList}</div>
             <div className="row mt-5">
